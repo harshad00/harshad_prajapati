@@ -17,7 +17,7 @@ function Image() {
   )
   return (
     <div className=' w-full flex items-center overflow-hidden justify-center'>
-       <img className=' img-hero w-[80%]   h-[70vh]  rounded-[2%] ' src='src\images\home-img.png' alt="not" />
+       <img className=' img-hero w-[80%]   h-[70vh]  rounded-[2%] ' src='.\images\home-img.png' alt="not" />
     </div>
   );
 }

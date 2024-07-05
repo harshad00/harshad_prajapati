@@ -63,20 +63,20 @@ function Skills() {
       </div>
       <div className="w-full overflow-hidden flex flex-col gap-10 items-center justify-center py-5">
         <div ref={skllsimgRef} className="flex flex-wrap justify-center gap-5">
-          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/html-5.png" alt="HTML5" />
-          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/css-3 (1).png" alt="CSS3" />
-          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/js.png" alt="JavaScript" />
-          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/python.png" alt="Python" />
-          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/download (2).jpeg" alt="Skill 1" />
-          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/download.jpeg" alt="Skill 2" />
+          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/html-5.png" alt="HTML5" />
+          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/css-3 (1).png" alt="CSS3" />
+          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/js.png" alt="JavaScript" />
+          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/python.png" alt="Python" />
+          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/download (2).jpeg" alt="Skill 1" />
+          <img className="skill-img w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/download.jpeg" alt="Skill 2" />
         </div>
         <div ref={skllsimgRef1} className="flex flex-wrap justify-center gap-5">
-          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/github.png" alt="GitHub" />
-          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/git.png" alt="Git" />
-          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/figma.png" alt="Figma" />
-          <img className="w-20 sm:w-24 md:w-28 hover:scale-110 hover:shadow-custom" src="src/images/express.png" alt="Express.js" />
-          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/programing.png" alt="Programming" />
-          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="src/images/physics.png" alt="Physics" />
+          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/github.png" alt="GitHub" />
+          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/git.png" alt="Git" />
+          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/figma.png" alt="Figma" />
+          <img className="w-20 sm:w-24 md:w-28 hover:scale-110 hover:shadow-custom" src="./images/express.png" alt="Express.js" />
+          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/programing.png" alt="Programming" />
+          <img className="w-10 sm:w-12 md:w-14 hover:scale-110 hover:shadow-custom" src="./images/physics.png" alt="Physics" />
         </div>
       </div>
     </div>

@@ -77,9 +77,9 @@ function About() {
           About
         </h1>
         <img
-          // ref={aboutimgRef}
+          ref={aboutimgRef}
           className="rounded-full  w-40 sm:w-52 md:w-60"
-          src="src/images/profile-pic.png"
+          src="./images/profile-pic.png"
           alt=""
         />
       </div>
@@ -112,8 +112,8 @@ function About() {
         <img
           ref={aboutimgRef}
           className="rounded-full  w-40 sm:w-52 md:w-60"
-          src="src/images/profile-pic.png"
-          alt=""
+          src="./images/profile-pic.png "
+          alt="not"
         />
       </div>
       <div className="md:w-[70%] text-justify flex-col flex justify-start items-start">

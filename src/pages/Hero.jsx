@@ -3,7 +3,7 @@ import { Introduction, Image } from "../components";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 
 function Hero() {
   return (

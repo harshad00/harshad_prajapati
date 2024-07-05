@@ -20,7 +20,7 @@ function Projects() {
 
   const projectData = [
     {
-      imgUrl: "src/images/cardimg/project1.png",
+      imgUrl: "./images/cardimg/project1.png",
       title: "Mother's Market",
       summary:
         "This is a brief summary of the project. It explains the main features and objectives in a concise manner.",
@@ -28,7 +28,7 @@ function Projects() {
       gitUrl: "",
     },
     {
-      imgUrl: "src/images/cardimg/Screenshot 2024-07-03 161750.png",
+      imgUrl: "./images/cardimg/Screenshot 2024-07-03 161750.png",
       title: "Blog App",
       summary:
         "This is a brief summary of the project. It explains the main features and objectives in a concise manner.",
