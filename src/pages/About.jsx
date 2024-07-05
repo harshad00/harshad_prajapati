@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 function About() {
 
-  const pdfUrl = "src/pages/mypdf/Hrashad Prajapati (1).pdf"
+  const pdfUrl = "./mypdf/Hrashad Prajapati (1).pdf"
 
   const [isAboutPage, setIsAboutPage] = useState(false); 
   useEffect(() => {

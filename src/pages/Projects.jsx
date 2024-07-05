@@ -36,7 +36,7 @@ function Projects() {
         "https://my-blog-appwrite-git-main-harshad00s-projects.vercel.app/",
     },
     {
-      imgUrl: "src/images/cardimg/omg.png",
+      imgUrl: "./images/cardimg/omg.png",
       title: "OMG",
       summary:
         "This is a brief summary of the project. It explains the main features and objectives in a concise manner.",

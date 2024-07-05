@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Hero from './pages/Hero.jsx'
 import About from './pages/About.jsx'
-import Blog from './pages/Blog.jsx'
+// import Blog from './pages/Blog.jsx'
 import Contact from './pages/Contact.jsx'
 import Projects from './pages/Projects.jsx'
 import Not from './pages/Not.jsx'
@@ -27,10 +27,10 @@ const router = createBrowserRouter([
         path: '/projects',
         element: <Projects/>
       },
-      {
-        path: '/blog',
-        element: <Blog/>
-      },
+      // {
+      //   path: '/blog',
+      //   element: <Blog/>
+      // },
       {
         path: '/contact',
         element: <Contact/>
