@@ -7,7 +7,9 @@ import About from './pages/About.jsx'
 // import Blog from './pages/Blog.jsx'
 import Contact from './pages/Contact.jsx'
 import Projects from './pages/Projects.jsx'
+import Project from './pages/Project.jsx'
 import Not from './pages/Not.jsx'
+
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -35,6 +37,10 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact/>
       },
+      {
+        path: "/project/:title",
+        element: <Project/> ,
+    },
       {
         path: '/error',
         element: <Not/>

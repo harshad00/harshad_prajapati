@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Card from "../components/Card";
+import projectData from './ProjectData'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,32 +19,7 @@ function Projects() {
     return () => window.removeEventListener("popstate", handleLocationChange);
   }, []);
 
-  const projectData = [
-    {
-      imgUrl: "./images/cardimg/project1.png",
-      title: "Mother's Market",
-      summary:
-        "This is a brief summary of the project. It explains the main features and objectives in a concise manner.",
-      project: "https://mothers-market.netlify.app/",
-      gitUrl: "",
-    },
-    {
-      imgUrl: "./images/cardimg/Screenshot 2024-07-03 161750.png",
-      title: "Blog App",
-      summary:
-        "This is a brief summary of the project. It explains the main features and objectives in a concise manner.",
-      project:
-        "https://my-blog-appwrite-git-main-harshad00s-projects.vercel.app/",
-    },
-    {
-      imgUrl: "./images/cardimg/omg.png",
-      title: "OMG",
-      summary:
-        "This is a brief summary of the project. It explains the main features and objectives in a concise manner.",
-      project: "",
-      gitUrl: "",
-    },
-  ];
+  
 
   const ProjectH1Ref = useRef(null);
 

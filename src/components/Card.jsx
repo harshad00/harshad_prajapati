@@ -29,22 +29,26 @@ const Card = ({ imgUrl, title, summary, project }) => {
   }, []);
 
   return (
+
     <div ref={cardRef} className="max-w-sm  border border-black rounded overflow-hidden shadow-lg m-4">
+      <Link to={`/project/${title}`}>
       <img className="w-full" src={imgUrl} alt={title} />
+      </Link>
       <div className="px-6  py-4">
         <div className="font-bold  text-xl mb-2">{title}</div>
         <p className="text-gray-700 text-base overflow-hidden overflow-ellipsis whitespace-nowrap">
           {summary}
         </p>
       </div>
-      <Link to={`${project}`}>
       <div className="px-6 pt-4 pb-2">
+      <Link to={`${project}`}>
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
          Go to project
         </span>
-      </div>
       </Link>
+      </div>
     </div>
+   
   );
 };
 
