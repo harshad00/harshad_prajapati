@@ -18,7 +18,7 @@ const Footer = () => {
   return (
     <div>
  
-<footer className="bg-black text-white p-6">
+<footer className="bg-black  text-white p-6">
   <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
     {/* Left side - Logo, Email, and Mobile */}
     <div className="text-center md:text-left mb-4 md:mb-0">

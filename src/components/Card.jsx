@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 gsap.registerPlugin(ScrollTrigger);
 
 
-const Card = ({ imgUrl, title, summary, project }) => {
+const Card = ({ imgUrl, title, summary, project, github }) => {
   const cardRef = useRef(null);
 
   useEffect(() => {
@@ -35,15 +35,20 @@ const Card = ({ imgUrl, title, summary, project }) => {
       <img className="w-full" src={imgUrl} alt={title} />
       </Link>
       <div className="px-6  py-4">
-        <div className="font-bold  text-xl mb-2">{title}</div>
+        <div className="font-bold  text-xl mb-2 overflow-hidden overflow-ellipsis">{title}</div>
         <p className="text-gray-700 text-base overflow-hidden overflow-ellipsis whitespace-nowrap">
           {summary}
         </p>
       </div>
-      <div className="px-6 pt-4 pb-2">
-      <Link to={`${project}`}>
+      <div className="px-6 pt-4 pb-2 flex justify-between">
+      <Link to={`${project}`} className=' items-center border border-black rounded-md '>
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
          Go to project
+        </span>
+      </Link>
+      <Link to={`${github}`} className=' items-center border border-black rounded-md'>
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+         Go to github
         </span>
       </Link>
       </div>

@@ -61,7 +61,8 @@ function Projects() {
             imgUrl={d.imgUrl}
             title={d.title}
             summary={d.summary}
-            project={d.project || "/error"}
+            project={d.project || "/error"} 
+            github={d.gitUrl}
           />
         ))}
       </div>
@@ -86,7 +87,8 @@ function Projects() {
             imgUrl={d.imgUrl}
             title={d.title}
             summary={d.summary}
-            project={d.project || "/error"}
+            project={d.project || "/error"} 
+            github={d.gitUrl}
           />
         ))}
       </div>
