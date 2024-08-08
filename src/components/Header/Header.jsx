@@ -49,7 +49,7 @@ function Header() {
   return (
     <nav className="w-full bg-slate-300 py-5 flex justify-between px-20 items-center">
       <Link to="/">
-        <div className="logo font-bold text-4xl">HR</div>
+        <div className="logo font-bold text-4xl">HP</div>
       </Link>
 
       <ul

@@ -21,7 +21,7 @@ const ProjectData = [
   {
     imgUrl: "./images/cardimg/Screenshot 2024-07-03 161750.png",
     title: "Blog App",
-    summary:`My Blog App is a dynamic blogging platform built using React and Appwrite. The application allows users to create, update, and delete blog posts, providing a user-friendly interface for managing personal or shared content.
+    summary: `My Blog App is a dynamic blogging platform built using React and Appwrite. The application allows users to create, update, and delete blog posts, providing a user-friendly interface for managing personal or shared content.
 
 Key Features:
 
@@ -39,15 +39,18 @@ Utilizing React hooks for effective state management.
 Integrating Appwrite to handle backend functionalities such as data storage and user authentication.`,
     project:
       "https://my-blog-appwrite-git-main-harshad00s-projects.vercel.app/",
-      gitUrl:'https://github.com/harshad00/MyBlog_Appwrite'
+    gitUrl: "https://github.com/harshad00/MyBlog_Appwrite",
   },
   {
     imgUrl: "./images/cardimg/omg.png",
     title: "OMG optical & gift articles store ",
-    summary:`OMG Optical & Gift Articles Store is an e-commerce platform designed to offer a wide range of optical products and gift items. Built with a focus on user experience and security, the application provides a seamless shopping experience with various features to enhance usability and functionality.
-
+    summary: `OMG Optical & Gift Articles Store is an 
+    e-commerce platform designed to offer a wide range 
+    of optical products and gift items. Built with a 
+    focus on user experience and security, the application
+     provides a seamless shopping experience with various
+      features to enhance usability and functionality.
 Key Features:
-
 User Registration: New users can easily register an account to start shopping.
 User Login: Returning users can log in to access their accounts and manage their orders.
 Add to Cart: Users can browse products and add their desired items to the shopping cart.
