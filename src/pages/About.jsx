@@ -68,11 +68,11 @@ function About() {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row w-full justify-between p-4">
+    <div className="flex w-full justify-between p-4">
     {isAboutPage ? (
-       < div className="flex justify-center py-32">   
+       < div className="flex md:flex-col justify-center py-32">   
        
-          <div className="flex   flex-col flex-nowrap items-center md:justify-between  md:items-start md:w-[30%] mb-4 md:mb-0">
+          <div className="flex flex-col md:flex-col flex-nowrap items-center md:justify-between  md:items-start md:w-[30%] mb-4 md:mb-0">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-0">
           About
         </h1>
@@ -105,7 +105,7 @@ function About() {
       </div>
       </div>
       ):( 
-        <>      <div className="flex flex-col flex-nowrap items-center md:justify-between  md:items-start md:w-[30%] mb-4 md:mb-0">
+        <> <div className="flex flex-col flex-nowrap items-center md:justify-between  md:items-start md:w-[30%] mb-4 md:mb-0">
         <h1 ref={aboutH1Ref} className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-0">
           About
         </h1>
